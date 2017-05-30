@@ -12,11 +12,11 @@ package sochi;
  * @packgename : sochi
  * @description : Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?
  */
-public class Prob1 {
+public class Prob1_sochi {
     public static void main(String[] args){
         String testStr1 = "asbaseqwe";
         String testStr2 = "abcdefgn";
-        Prob1 prob1 = new Prob1();
+        Prob1_sochi prob1 = new Prob1_sochi();
         prob1.hasAllUniqChar(testStr1);
         prob1.hasAllUniqChar(testStr2);
 
