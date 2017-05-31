@@ -1,4 +1,4 @@
-package john;
+package johan;
 
 /**
  * @author : Intellicon Lab. soh
