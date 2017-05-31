@@ -15,8 +15,8 @@ package sochi;
 public class prob2_sochi {
 
     public static void main(String[] args){
-        LinkedList linkedList = new LinkedList(new int[]{1,2,3,4,5});
-        linkedList.findNthToEnd(1);
+        LinkedList linkedList = new LinkedList(new int[]{1,2,3,4,5,6,7});
+        linkedList.findNthToEnd(3);
     }
 }
 class LinkedList{
@@ -40,16 +40,28 @@ class LinkedList{
     }
     public void findNthToEnd(int n){
         //n-1 skip
-        if(n < 0) return;
-        int count = 0;
+        if(n < 1) return;
+        int count = 1;
         Node node =root;
         while(true){
-            if(count >= n) System.out.print(node.element);
+//            if(count >= n) System.out.print(node.element);
 
             if(node.getNextNode() == null) break;
 
             node = node.getNextNode();
             count++;
+        }
+        int nth = count - n ;
+        if(nth<1) return;
+        node =root;
+        int newCount = 1;
+        while(true){
+            if(newCount>nth){
+                System.out.println(node.element);
+                break;
+            }
+            node = node.getNextNode();
+            newCount++;
         }
     }
 }
