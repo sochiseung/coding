@@ -21,7 +21,6 @@ public class prob2_sochi {
 }
 class LinkedList{
 
-
     Node root;
 
     LinkedList(int[] ints){
