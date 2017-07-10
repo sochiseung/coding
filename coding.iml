@@ -4,10 +4,10 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main/problem1/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/problem2/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/problem3/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/problem4/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/main/problem5_170607/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/CTCI/Chapter02/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/CTCI/Chapter03/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/CTCI/Chapter04/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/CTCI/Chapter05/java" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
