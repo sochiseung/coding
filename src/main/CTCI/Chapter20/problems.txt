@@ -1,18 +1,43 @@
-Chapter 1. Arrays and Strings
-1.1 Implement an algorithm to determine if a string has all unique characters. What if you can not use additional data structures?
+20.1 Write a function that adds two numbers. You should not use + or any arithmetic operators.
 
-1.2 Write code to reverse a C-Style String. (C-String means that “abcd” is represented as five characters, including the null character.)
 
-1.3 Design an algorithm and write code to remove the duplicate characters in a string without using any additional buffer. NOTE: One or two additional variables are fine. An extra copy of the array is not.
-    FOLLOW UP
-    Write the test cases for this method.
+20.2 Write a method to shuffle a deck of cards. It must be a perfect shuffle - in other words, each 52! permutations of the deck has to be equally likely. Assume that you are given a random number generator which is perfect.
 
-1.4 Write a method to decide if two strings are anagrams or not.
 
-1.5 Write a method to replace all spaces in a string with ‘%20’.
+20.3 Write a method to randomly generate a set of m integers from an array of size n. Each element must have equal probability of being chosen.
 
-1.6 Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this in place?
 
-1.7 Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column is set to 0.
+20.4 Write a method to count the number of 2s between 0 and n.
 
-1.8 Assume you have a method isSubstring which checks if one word is a substring of another. Given two strings, s1 and s2, write code to check if s2 is a rotation of s1 using only one call to isSubstring (i.e., “waterbottle” is a rotation of “erbottlewat”).
+
+20.5 You have a large text file containing words. Given any two words, find the shortest distance (in terms of number of words) between them in the file. Can you make the searching operation in O(1) time? What about the space complexity for your solution?
+
+
+20.6 Describe an algorithm to find the largest 1 million numbers in 1 billion numbers. Assume that the computer memory can hold all one billion numbers.
+
+
+20.7 Write a program to find the longest word made of other words in a list of words.
+EXAMPLE
+Input: test, tester, testertest, testing, testingtester
+Output: testingtester
+
+
+20.8 Given a string s and an array of smaller strings T, design a method to search s for each small string in T.
+
+
+20.9 Numbers are randomly generated and passed to a method. Write a program to find and maintain the median value as new values are generated.
+
+
+20.10 Given two words of equal length that are in a dictionary, write a method to transform one word into another word by changing only one letter at a time. The new word you get in each step must be in the dictionary.
+EXAMPLE
+Input: DAMP, LIKE
+Output: DAMP -> LAMP -> LIMP -> LIME -> LIKE
+
+
+20.11 Imagine you have a square matrix, where each cell is filled with either black or white. Design an algorithm to find the maximum subsquare such that all four borders are filled with black pixels.
+
+
+20.12 Given an NxN matrix of positive and negative integers, write code to find the sub-matrix with the largest possible sum.
+
+
+20.13 Given a dictionary of millions of words, give an algorithm to find the largest possible rectangle of letters such that every row forms a
